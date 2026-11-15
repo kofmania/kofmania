@@ -1,16 +1,161 @@
-## Hi there 👋
+```
+의료와 패션 도메인을 넘나들며 데스크탑 애플리케이션부터 웹, 백엔드까지 아우르는 18년 차 3D 풀스택 개발자입니다.
 
-<!--
-**kofmania/kofmania** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+복잡한 3D 데이터를 직관적으로 다루는 GUI와 클라우드 환경을 하나로 연결하며, 언어와 플랫폼의 경계 없는 아키텍처 역량을 다져왔습니다. 단순한 기능 구현과 기술적 한계를 넘어, 궁극적으로 사용자와 비즈니스에 실질적인 가치를 안겨주는 제품을 완성하는 데 모든 역량을 쏟고 있습니다.
+```
 
-Here are some ideas to get you started:
+# 이상호
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# 1981
+
+---
+
+# 경력
+
+## 코넥티브 주식회사 / 풀스택 엔지니어(시니어)
+
+_서울시 강남구 – (2025년 2월 - 현재)_
+
+- 웹 기반 로봇 수술 플래너 (2025.12-현재)
+  - React 기반 웹 3D 뷰어 개발, 3D CT 영상과 AI 추론(세그멘테이션, 랜드마크) 결과 시각화 및 편집, 온 디바이스 AI 세그멘테이션 적용, 세그멘테이션에서 메시 변환, 해부학적 상태 정보 계산, 임플란트 컨트롤 및 뼈 절삭 범위 시각화, PDF 리포트 생성
+  - 브라우저를 통한 데스크탑 응용의 경험 제공과 AI 추론 서비스 연동으로 빠르고 편리한 수술 계획 경험 제공
+  - Cornerstone3D 컨트리뷰션 - 볼륨 슬라이스 이미지 생성 오류 수정
+  - vite, cornerstone3d, vtk.js, tanstack, zustand, tailwind, jsPDF
+- 웹 기반 영상 관리 서비스 (2025.02-2026.02)
+  - React 기반 웹 DICOM 뷰어 개발, DICOM 영상 및 AI 추론 결과 시각화, 사용자 어노테이션 생성 및 온라인 동기화, PDF 리포트 생성
+  - 기존 파편화된 자사 AI 제품군의 통합 뷰어로 전환, SC 생성없이 AI 결과 오버레이로 저장 공간 50% 절감 및 로딩 속도 향상
+  - vite, cornerstone3d, tanstack, zustand, tailwind, jsPDF
+
+## 주식회사지이모션 / MTS 소프트웨어 엔지니어
+
+_서울시 강남구 – (2020년 3월 - 2024년 12월, 4년 10개월)_
+
+- 웹 기반 제품 옵션 시뮬레이션 서비스 (2024.01 - 2024.11)
+  - React 기반 옵션 GUI 및 3D 제품 뷰어 구현, 3D 모델 시각화/조합 구현, PDF 견적서 생성
+  - 옵션에 따른 모델 조립 규칙을 메타 데이터로 정규화하여 3D 데이터 용량 및 로드 성능 최적화
+  - 3D 모델링팀, 의상(패브릭)팀과 협업 및 프리뷰 도구 개발로 업무 효율 향상
+  - 고객사 (이탈리아 Vitarelax) 방문하여 요구사항 미팅 및 제품 옵션/재질 확인
+  - 프로젝트 진행 후 추가 외부 투자 성사
+  - [https://vitarelax.z-emotion.com/](https://vitarelax.z-emotion.com/)
+  - vite, babylon.js, zustand, tailwind, jsPDF
+- 웹 기반 체험형 3D 가상 쇼룸 (2023.10 - 2023.12)
+  - React 기반 pixel streaming 쇼룸 뷰어 구현, 언리얼/webRTC 쇼룸 컨테이너 및 GPU 호스트 스케줄링 구현
+  - react, nest.js, webRTC, Unreal, ECS, EC2, redis
+- 지이모션 제품군 통합 라이센스/결제 시스템 (2022.09 - 2023.04) - 팀 리드(팀원+3)
+  - 제품/계정/라이센스 정책 설계 및 구현, 결제 시스템 연동 구현, 데스크탑 응용과 웹 인증 연동 설계 및 통합 인증 시스템 구현, 멀티 리전 적용, 모니터링 시스템 적용
+  - 엑셀 기반 관리 시스템에서 라이센스 발급, 데모 사용자 관리를 시스템화하여 세일즈/마케팅 업무 효율 향상
+  - 결제 연동 및 개인/교육기관/기업에 대응가능한 라이센스 정책으로 다양한 고객 유입 시작, 모니터링 시스템으로 이벤트 후 지역별/제품별 전략 결과 확인 가능
+  - nest.js, redis, ECS, elasticsearch, kibana, paddle
+- 나이키 신상품 온라인 가상 스타일링 캠페인 (2022.04 - 2022.08) - 팀 리드(팀원+3)
+  - 옵션별 이미지 합성, 캐시 구현, 사용자 활동 기록 구현
+  - 대량 이미지 합성을 위한 c++ lambda 서비스 적용으로 속도 최적화
+  - 일회성 서비스로 AWS 서버리스 사용 결정, 구조 설계, 모델링/엔진팀과 협업으로 기간내 서비스 제공 완료
+  - 해당 포트폴리오를 통해 LVMH 본사와 미팅 및 VIVATECH 영상 제작, 의상 디자이너 이탈리아 패션위크 컨텐츠 제작
+  - [https://style.z-emotion.com/](https://style.z-emotion.com/)
+  - c++, node.js, S3, lambda
+- 체형 맞춤 가상 의상 피팅/렌더링 시스템 (2020.10 - 2021.07)
+  - 시뮬레이션/렌더링 코어 워커 구현, 메시지 큐/웹 소켓을 이용한 API 서버와 코어 워커 연동 구현
+  - 대량 배치 작업 요구사항에서 시작하여 옵션별 온디멘드 요청, 중간 상태 재사용, 웹 서비스로의 진화하는 요구사항 구현
+  - 캐릭터, 의상, 배경 씬 조합으로 브랜드별 제품, 무드의 다양한 조합 수용 가능
+  - 데스크탑 중심의 무거운 코어 엔진을 헤드리스 아키텍처로 분리하여 클라우드 서비스 가능성 확인으로 클라우드 팀 신설하여 팀 리드 시작
+  - 커버낫, LG 에 서비스 제공, 투자 유치 기여
+  - c++, node.js, S3, kafka, websocket
+- 데스크탑 응용 3D 의상 디자인/착장 시뮬레이션/렌더링 도구(z-weave) (2020.03 - 2024.11)
+  - 2D 블럭 패턴 디자인 도구 개발, 데스크탑 응용 Qt GUI 개발, 크래시 모니터 도구 개발
+  - 프로젝트마다 디지털 의상팀과 실제 요구사항 기반 개발/피드백으로 긴밀한 협업, 메모리 덤프 디버깅으로 다수 이슈 해결 및 안정화 기여
+  - c++, Qt
+
+## (주)엑소시스템즈 / 소프트웨어 엔지니어
+
+경기도 성남시 - (2018년 2월 - 2020년 3월, 2년 2개월)
+
+- 게이미피케이션을 활용한 FES 기반 재활 보조 서비스(엑소리햅) (2018.02 - 2020.03)
+  - BLE 통신을 이용한 FES 장비 제어 및 활동 기록 앱 개발, 재활 활동 및 결과 분석 웹 대시보드 개발
+  - c++, android, react, d3.js, node.js, AWS
+
+## 오스템임플란트주식회사 / 소프트웨어 엔지니어
+
+_서울시 강서구 – (2014년 6월 - 2018년 2월, 3년 9개월)_
+
+- 웹 기반 덴탈 3D CT 뷰어(One3D) (2014.06 - 2018.02)
+  - 렌더링 엔진 및 프레임워크 커스텀 기능 개발, GUI 개발, PACS DICOM 통신 개발
+  - 경쟁사 분석부터 기획, 개발, 출시까지 전프로세스 참여
+  - 신설 뷰어개발팀 합류후 PoC 개발, 볼륨 렌더링 엔진 계약으로 6개월간 기술 이전 파견, 사내 엔진 개발 교육, 신입 교육
+  - 오스템 CT 장비 기본 뷰어로 탑재 판매 및 개별 판매 시작
+  - c++, dcmtk, node.js, polymer
+
+## 바텍이우홀딩스,주식회사이우소프트 / 소프트웨어 엔지니어
+
+_경기도 화성시 – (2008년 6월 - 2014년 6월, 6년 1개월)_
+
+- 데스크탑 덴탈 3D CT 뷰어(Ez3D-i) (2013.01 - 2014.06)
+  - Qt GUI 풀 커스텀 개발, 리포트 문서 편집기 개발, DICOM 프린팅 개발, 상담용 컨텐츠 뷰어 개발
+  - 기획부터 디자인, 개발, 출시까지 전프로세스 참여
+  - 기존 뷰어 제품과 병행하여 자사 CT 기본 뷰어로 탑재
+  - c++, Qt, dcmtk
+- 데스크탑 덴탈 3D CT 뷰어(Ez3D plus) (2008.06-2013.01)
+  - 제품 유지보수, audit 로그 저장 서비스 구현
+  - 원격 로그 모니터링으로 사용자 오류 대응
+  - c++, MFC, c#
+
+---
+
+# 학력
+
+## **컴퓨터 공학 석사**
+
+2006.03 - 2008.03 졸업
+
+울산대학교 - 울산광역시
+
+졸업논문 - C4.5 알고리즘을 이용한 의사결정나무 구성 및 탐색 컴포넌트 개발
+
+## **컴퓨터 공학 학사**
+
+1999.03 - 2006.02 졸업
+
+울산대학교 - 울산광역시
+
+졸업작품 - 레고 마인드스톰과 JAVA 를 이용한 Cube Solver 개발
+
+---
+
+# 자격증
+
+정보처리기사
+
+---
+
+# 참고자료
+
+## 지이모션, 컨피규레이터
+
+[https://vitarelax.z-emotion.com/](https://vitarelax.z-emotion.com/)
+
+## 지이모션, 나이키 캠페인
+
+[https://style.z-emotion.com/](https://style.z-emotion.com/)
+
+## 지이모션, z-weave + 기타
+
+[https://youtu.be/RJ1-vh9u_ek?si=Sd85oiTyrResdQZ7](https://youtu.be/RJ1-vh9u_ek?si=Sd85oiTyrResdQZ7)
+
+[https://youtu.be/rW1tocBPmaE?si=yocyEGquHOTXn2m5](https://youtu.be/rW1tocBPmaE?si=yocyEGquHOTXn2m5)
+
+## 엑소시스템즈, 엑소리햅
+
+[https://youtu.be/BRnug3Nb43Y?si=26RMBrhxtCocXAVi&t=21](https://youtu.be/BRnug3Nb43Y?si=26RMBrhxtCocXAVi&t=21)
+
+## 오스템, One3D
+
+[https://youtu.be/j1VxwgfW8I4?si=qLOzhz8goaQy4Frs&t=131](https://youtu.be/j1VxwgfW8I4?si=qLOzhz8goaQy4Frs&t=131)
+
+---
+
+# 기타
+
+대한적십자 수상인명구조 자격증
+
+---
+
+# [📧 kofmania@gmail.com](mailto:kofmania@gmail.com)
